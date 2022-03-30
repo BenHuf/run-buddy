@@ -1,12 +1,11 @@
-/* apply styles to everything (*)*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* apply styles to <body>*/
 body {
+  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -44,7 +43,6 @@ header nav ul li a {
   font-size: 22px;
 }
 
-/*apply styles to <footer>*/
 footer {
   background: #fce138;
   width: 100%;
@@ -74,15 +72,16 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
+/* Hero Style End */
 
 .hero-form {
-  border: solid 3px #024e76;
+  border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
   width: 500px;
@@ -92,11 +91,10 @@ section {
   right: 140px;
 }
 
-.hero-from h3 {
+.hero-form h3 {
   font-size: 24px;
   margin: 0;
 }
-
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -116,10 +114,9 @@ section {
 }
 
 .hero-form button {
-  background-color: #024e76;
   color: #fce138;
+  background-color: #024e76;
   border: none;
-  font-size: 16px;
   padding: 10px 20px;
+  font-size: 16px;
 }
-/* Hero Style End */
